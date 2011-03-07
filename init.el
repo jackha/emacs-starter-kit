@@ -77,3 +77,4 @@
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 
 ;;; init.el ends here
+(put 'set-goal-column 'disabled nil)
