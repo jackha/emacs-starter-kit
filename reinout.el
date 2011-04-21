@@ -65,5 +65,7 @@
           '(lambda ()
              (local-set-key (kbd "C-c C-w") 'jslint-thisfile)))
 
+;; http://koansys.com/tech/emacs-hangs-on-flymake-under-os-x
+(setq flymake-gui-warnings-enabled nil)
 ;; Start emacs as a server so that clients can connect.
 (server-start)
