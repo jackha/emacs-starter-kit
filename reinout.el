@@ -27,6 +27,9 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . javascript-mode))
 
+;; PML
+(add-to-list 'auto-mode-alist '("\\.pml$" . nxml-mode))
+
 ;; Python mode stuff
 (add-hook 'python-mode-hook '(lambda () (define-key python-mode-map "\C-m" 'newline-and-indent)))
 

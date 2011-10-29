@@ -99,7 +99,7 @@
 (setq mumamo-chunk-coloring 'submode-colored
       nxhtml-skip-welcome t
       indent-region-mode t
-      rng-nxml-auto-validate-flag nil)
+      rng-nxml-auto-validate-flag t)
 
 ;; Associate modes with file extensions
 
