@@ -26,6 +26,8 @@
 ;; Reset js/json to use the simpler and nicer javascript-mode
 (add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . javascript-mode))
+;; And .less is really .css.
+(add-to-list 'auto-mode-alist '("\\.less\\'" . css-mode))
 
 ;; PML
 (add-to-list 'auto-mode-alist '("\\.pml$" . nxml-mode))
