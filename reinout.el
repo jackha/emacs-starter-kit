@@ -23,6 +23,10 @@
 ;; Alt-arrow navigation between emacs windows.
 (windmove-default-keybindings 'meta)
 
+;; PO mode stuff.
+(autoload 'po-mode "po-mode")
+(add-to-list 'auto-mode-alist '("\\.po$" . po-mode))
+
 ;; Reset js/json to use the simpler and nicer javascript-mode
 (add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . javascript-mode))
