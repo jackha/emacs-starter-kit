@@ -32,3 +32,7 @@
   ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "apple" :family "Monaco"))))
  '(hl-line ((t (:underline t)))))
+
+
+;; jack starts here
+(set-face-attribute 'default nil :height 110)
